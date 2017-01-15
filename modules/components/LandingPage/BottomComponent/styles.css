@@ -1,0 +1,57 @@
+.title{
+  font-size: 50px;
+  color: #fff;
+  padding-left: 40vw;
+  padding-top: 25vh;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica';
+  font-weight: 600;
+}
+
+.body{
+  background-color: #32425c;
+  min-height: 50vh;
+}
+
+.smallerTitle{
+  font-size: 25px;
+  color: #fff;
+  padding-left: 38vw;
+  padding-top: 1vh;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica';
+  font-weight: 300;
+}
+
+.buttonDivStyle{
+  padding-top: 5vh;
+  padding-left: 36vw;
+  height: 300px;
+  width: 450px;
+}
+
+.buttonStyleLeft{
+  display: inline-block;
+  float: left;
+  height: 50px;
+  width: 200px;
+  border: #ce616e;
+  border-radius: 5px 5px 5px 5px;
+  color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica';
+  font-weight: 400;
+  font-size: 20px;
+  background-color: #ce616e;
+}
+
+.buttonStyleRight{
+  display: inline-block;
+  float: right;
+  height: 50px;
+  width: 200px;
+  border: #ce616e;
+  border-radius: 5px 5px 5px 5px;
+  color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica';
+  font-weight: 400;
+  font-size: 20px;
+  background-color: #ce616e;
+}

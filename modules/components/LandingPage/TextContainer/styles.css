@@ -1,0 +1,53 @@
+.bodygrey{
+  min-height: 50vh;
+  background: #ebeff2;
+  padding: 0;
+  margin: 0;
+}
+
+.bodyblue{
+  min-height: 50vh;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.rightDiv{
+  display: inline-block;
+  float: right;
+  max-width: 30vw;
+  padding-top: 12vh;
+  padding-right: 15vw;
+}
+
+.leftDiv{
+  display: inline-block;
+  float: left;
+}
+
+.imgstyle{
+  width: 400px;
+  height: auto;
+  padding-left: 20vw;
+  padding-top: 6vw;
+}
+
+.title{
+  padding-top: 20px;
+  max-width: 15vw;
+  padding-bottom: 0;
+  font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.infostyle{
+  font-size: 20px;
+  padding-bottom: 0;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica';
+  font-weight: 300;
+}
+
+.liststyle{
+  padding-top: 20px;
+  padding-right: 20px;
+}

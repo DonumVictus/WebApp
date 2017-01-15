@@ -1,0 +1,38 @@
+.title{
+  font-size: 50px;
+  color: #fff;
+  padding-left: 40vw;
+  padding-top: 25vh;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica';
+  font-weight: 600;
+}
+
+.body{
+  background-color: #32425c;
+  min-height: 100vh;
+}
+
+.smallerTitle{
+  font-size: 25px;
+  color: #fff;
+  padding-left: 38vw;
+  padding-top: 1vh;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica';
+  font-weight: 300;
+}
+
+.imgStyle{
+  width: 300px;
+  height: auto;
+  padding-top: 5vh;
+  padding-left: 41vw;
+}
+
+.linkStyle{
+  color: #fff;
+  font-size: 20px;
+  padding-left: 93vw;
+  padding-top: 3vh;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica';
+  font-weight: 300;
+}
