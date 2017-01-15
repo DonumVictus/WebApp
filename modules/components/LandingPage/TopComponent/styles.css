@@ -1,15 +1,17 @@
 .title{
   font-size: 50px;
   color: #fff;
-  padding-left: 40vw;
+  padding-left: 38.5vw;
   padding-top: 25vh;
   font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica';
   font-weight: 600;
 }
 
 .body{
-  background-color: #32425c;
+  background-image: url('./backgroundpic.jpg');
   min-height: 100vh;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 }
 
 .smallerTitle{
@@ -31,8 +33,21 @@
 .linkStyle{
   color: #fff;
   font-size: 20px;
-  padding-left: 93vw;
+  padding-left: 88vw;
   padding-top: 3vh;
   font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica';
   font-weight: 300;
+  float: left;
+  display: inline-block;
+}
+
+.linkStyleTwo{
+  color: #fff;
+  font-size: 20px;
+  padding-top: 3vh;
+  padding-right: 3vw;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica';
+  font-weight: 300;
+  display: inline-block;
+  float: right;
 }

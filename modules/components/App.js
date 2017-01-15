@@ -1,21 +1,33 @@
 import React from 'react'
-import { IndexLink, Link } from 'react-router'
 import Title from 'react-title-component'
+import * as firebase from 'firebase'
 
-export default React.createClass({
+class App extends React.Component{
+  constructor(props){
+    super(props);
+    var config = {
+      apiKey: "AIzaSyDeOtY-OVXWU_lJvsQMY2cEMnXXQRETr7I",
+      authDomain: "donumvictus.firebaseapp.com",
+      databaseURL: "https://donumvictus.firebaseio.com",
+      storageBucket: "donumvictus.appspot.com",
+      messagingSenderId: "103550522246"
+    };
+    try{
+      firebase.initializeApp(config);
+    }catch(e){
+      firebase.app().delete().then(function(){
+        firebase.initializeApp(config);
+      })
+    }
+  }
+
   render() {
     return (
       <div>
-        <Title render="Awesome App"/>
-        <h1>Welcome to your app.</h1>
-        <ul>
-          <li><IndexLink to="/">Home</IndexLink></li>
-          <li><Link to="/dragon">A DRAGON!</Link></li>
-          <li><Link to="/not-dragon">An old URL to a DRAGON!</Link></li>
-        </ul>
         {this.props.children}
       </div>
     )
   }
-})
+}
 
+export default App;

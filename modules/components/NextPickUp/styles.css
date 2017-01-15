@@ -1,0 +1,32 @@
+.title{
+  font-size: 45px;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica";
+  font-style: 400;
+  padding-top: 5vh;
+  padding-left: 45vw;
+  color: #fff;
+}
+
+.body{
+  height: 100vh;
+  background-color: #32425c;
+}
+
+.info{
+  font-size: 25px;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica";
+  font-style: 300;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 30vw;
+  color: #fff;
+}
+
+.settingStyle{
+  color: #fff;
+  font-size: 20px;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica";
+  font-style: 300;
+  padding-left: 93vw;
+  padding-top: 3vh;
+}

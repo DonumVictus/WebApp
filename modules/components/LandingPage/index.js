@@ -7,7 +7,7 @@ import { body } from './styles.css'
 import phone from './TextContainer/phones.png'
 import trash from './TextContainer/trash.png'
 import restaurant from './TextContainer/restaurant.jpg'
-import purpose from './TextContainer/purpose.png'
+import purpose from './TextContainer/purpose.jpg'
 
 export default React.createClass({
   render(){

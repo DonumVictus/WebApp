@@ -1,0 +1,13 @@
+.body{
+  height: 100vh;
+  background-color:  #32425c;
+}
+
+.title{
+  font-size: 45px;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica";
+  font-style: 600;
+  padding-top: 45vh;
+  padding-left: 45vh;
+  color: #fff;
+}
